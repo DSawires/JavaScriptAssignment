@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Draw Something!</h1>
+    </header>
+    <div class="main-page">
+        <div class="draw-grid-container">
+            <table id="draw-board"></table>
+        </div>
+        <div class="instructions">
+            <h2>Instructions:</h2>
+            <p>Click on a color to select it, then click on a square to color it.</p>
+            <p>Click on the "Custom" button to select a custom color.</p>
+            <p>Click on the "Clear" button to clear the board.</p>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="color-button" style="background-color: black;" data-color="black"></button>
+        <button class="color-button" style="background-color: red;" data-color="red"></button>
+        <button class="color-button" style="background-color: blue;" data-color="blue"></button>
+        <button class="color-button" style="background-color: green;" data-color="green"></button>
+        <button class="color-button" style="background-color: yellow;" data-color="yellow"></button>
+        <button class="color-button" style="background-color: orange;" data-color="orange"></button>
+        <button class="color-button" style="background-color: purple;" data-color="purple"></button>
+        <button class="color-button" style="background-color: pink;" data-color="pink"></button>
+        <input type="color" id="custom-color">
+        <button id="clear">Clear</button>
+    </div>
+    <footer>
+        <p>David Sawires &copy; 2024</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>

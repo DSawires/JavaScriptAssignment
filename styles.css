@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    background-color: #ffe2b0;
+    font-family: sans-serif;
+}
+
+header {
+    font-size: 1rem;
+    align-self:center;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.draw-grid-container {
+    justify-content: center;
+    align-self: center;
+}
+
+.controls {
+    align-self: center;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.color-button {
+    margin: .2rem;
+    padding: .5rem;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+.selected {
+    border: 3px solid black;
+}
+
+.instructions {
+    align-self: center;
+    margin: 1rem;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+footer {
+    position: fixed;
+    align-self: center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    background-color: #ffe2b0;
+}

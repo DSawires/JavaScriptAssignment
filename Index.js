@@ -56,3 +56,20 @@ clearButton.addEventListener('click', function() {
         cell.style.backgroundColor = '#ffffff'; // Change this to your default color
     });
 });
+
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const footer = document.getElementById('footer');
+let isDarkMode = false;
+
+darkModeToggle.addEventListener('click', function() {
+    isDarkMode = !isDarkMode;
+    if (isDarkMode) {
+        document.body.style.backgroundColor = '#333';
+        document.body.style.color = '#fff';
+        footer.style.backgroundColor = '#333';
+    } else {
+        document.body.style.backgroundColor = '#ffe2b0';
+        document.body.style.color = '#000';
+        footer.style.backgroundColor = '#ffe2b0';
+    }
+});

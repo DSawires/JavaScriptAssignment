@@ -1,4 +1,4 @@
-let selectedColor = '#000000';
+let selectedColor = '#ffffff';
 let isDrawing = false;
 
 const table = document.getElementById('draw-board');
